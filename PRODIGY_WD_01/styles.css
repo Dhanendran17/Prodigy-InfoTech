@@ -1,0 +1,130 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:linear-gradient(45deg, #000000, #333333);;
+    z-index: 1000;
+    transition: background-color 0.2s;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+    transition: color 0.3s;
+}
+
+.nav-item a:hover {
+    color: #ff6347;
+}
+
+.section {
+    padding: 100px 20px;
+    margin-top: 60px;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+#home {
+    background: linear-gradient(45deg,#14b5e3, #9fc1cf);
+}
+
+#about {
+    background: linear-gradient(45deg, #0a8cdf, #c19fcf);
+}
+
+#projects {
+    background: linear-gradient(45deg, #81c784, #a8e6cf);
+}
+
+#contact {
+    background: linear-gradient(45deg, #b90adf, #9fcccf);
+}
+
+.content-box h1, .content-box p {
+    font-family: 'YourDesiredFont', sans-serif; /* Replace 'YourDesiredFont' with the actual font name */
+}
+
+
+
+.content-box h1 {
+    font-family:'Times New Roman', Times, serif; /* Use the same font family as loaded above or any other desired font */
+    font-size: 2em; /* Adjust as needed */
+    font-weight: 700; /* Adjust as needed */
+}
+
+.content-box p {
+    font-family: 'Times New Roman', Times, serif; /* Use the same font family as loaded above or any other desired font */
+    font-size: 1em; /* Adjust as needed */
+    font-weight: 400; /* Adjust as needed */
+    line-height: 1.6; /* Adjust as needed for readability */
+}
+
+.content-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content-box ul li {
+    background: white;
+    color: black;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    background: #f0f0f0;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
